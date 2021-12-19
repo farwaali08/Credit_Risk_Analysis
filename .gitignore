@@ -130,3 +130,6 @@ dmypy.json
 
 # .DS_Store
 .DS_Store
+
+# LoanStats_2019Q1.csv
+LoanStats_2019Q1.csv
