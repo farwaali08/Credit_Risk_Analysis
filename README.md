@@ -36,7 +36,7 @@ The data was resampled using the different methods outlined below, and then each
   * BalancedRandomForestClassifier
   * EasyEnsembleClassifier 
 
-## RESULTS & SUMMARY
+## RESULTS 
 
 The results are summarized by model, with an emphasis on the high_risk scores, as this is the category of interest.
 
@@ -98,4 +98,10 @@ The results are summarized by model, with an emphasis on the high_risk scores, a
    * High_risk Precision: `7%`
    * High_risk Recall/Sensitivity: `91%`
    * High_risk F1: `14%`
-   * This model best performing, with a balanced accuracy test scored of`92.5%`. It surpassed all other models in every category.
+   * This model is the best performing, with a balanced accuracy test scored of`92.5%`. It surpassed all other models in every category.
+
+## SUMMARY
+
+The data indicates that amongst all the models observed, **EasyEnsembleClassifier** is the best performer, as it has the highest overall scores, as well as in the category of interest, high_risk, where it is able to detect over 90% of high_risk cases. All models have displayed weak precision in the high_risk category.
+
+With that being said, none of the above algorithms are recommended for predicting credit risk, as even the best-performing algorithm falls a little short in a practical setting. There is still a fairly large percentage (~10%) of high_risk cases that were misclassified, and this may result in financial
