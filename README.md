@@ -42,7 +42,7 @@ The data was resampled using the different methods outlined below, and then each
 
 ![alt_text](https://github.com/farwaali08/Credit_Risk_Analysis/blob/510252005f955af1904c3dc4b0f5246c65604689/Images/ROS.png)
 
- > * Balanced accuracy test (appox.): `65%`
+   * Balanced accuracy test (appox.): `65%`
    * Precision: `1%`
    * Recall/Sensitivity: `61%`
    * F1: `2%`
