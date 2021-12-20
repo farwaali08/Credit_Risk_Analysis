@@ -88,6 +88,14 @@ The results are summarized by model, with an emphasis on the high_risk scores, a
    * High_risk Precision: `4%`
    * High_risk Recall/Sensitivity: `67%`
    * High_risk F1: `7%`
-   * This model was the second-best at predicting credit risk, with a balanced accuracy test scored of roughly `79%`.
+   * This model was the second-best performing, with a balanced accuracy test scored of roughly `79%`. There is a marked improvement in all other categories relative to the other models observed thus far.
 
 ### EasyEnsembleClassifier 
+
+![alt_text](https://github.com/farwaali08/Credit_Risk_Analysis/blob/1a2835945e30b2402ed5365c6ee36aca8b7fcab2/Images/EEC.jpg)
+
+   * Balanced accuracy test (appox.): `92.5%`
+   * High_risk Precision: `7%`
+   * High_risk Recall/Sensitivity: `91%`
+   * High_risk F1: `14%`
+   * This model best performing, with a balanced accuracy test scored of`92.5%`. It surpassed all other models in every category.
