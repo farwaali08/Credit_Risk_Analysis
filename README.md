@@ -66,9 +66,17 @@ The data was resampled using the different methods outlined below, and then each
    * Precision: `1%`
    * Recall/Sensitivity: `60%`
    * F1: `1%`
-   * This model was the least successful in predicting credit risk amongst all the models tested. It produced the lowest balanced accuracy test score of `52%`, and due to the high number of false-positives, produced the lowest low_risk sensitivity score of `43%`.
+   * This model was the least successful in predicting credit risk amongst all the models tested. It produced the lowest balanced accuracy test score of `52%`, and notably, due to the high number of false-positives, produced the lowest low_risk sensitivity score of `43%`.
 
 ### SMOTEENN
+
+![alt_text](https://github.com/farwaali08/Credit_Risk_Analysis/blob/040f59338d051adf8a49cf61e5483d0322ba2d24/Images/SMOTEENN.jpg)
+
+   * Balanced accuracy test (appox.): `62%`
+   * Precision: `1%`
+   * Recall/Sensitivity: `69%`
+   * F1: `2%`
+   * SMOTEENN, or the combination sampling model ranked in between the SMOTE and ClusterCentroids models, with a balanced accuracy score of about `62%`.
 
 ### BalancedRandomForestClassifier
 
