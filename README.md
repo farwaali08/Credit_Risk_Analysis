@@ -50,6 +50,14 @@ The data was resampled using the different methods outlined below, and then each
 
 ### SMOTE
 
+![alt_text](https://github.com/farwaali08/Credit_Risk_Analysis/blob/f2aaa4be14a5c2a278e534a08cb5e9b0335bf775/Images/SMOTE.jpg)
+
+   * Balanced accuracy test (appox.): `62%`
+   * Precision: `1%`
+   * Recall/Sensitivity: `61%`
+   * F1: `2%`
+   * This model fared fairly similar to the previous one, with identical precision and F-scores. The recall/sensitivity is also identical, at `61%`. The overall balanced accuracy test score however, is lower, at roughly `62%`
+
 ### ClusterCentroids
 
 ### SMOTEENN
