@@ -60,6 +60,14 @@ The data was resampled using the different methods outlined below, and then each
 
 ### ClusterCentroids
 
+![alt_text](https://github.com/farwaali08/Credit_Risk_Analysis/blob/340b32383dabea0fb75f48dfddbca7af1016a970/Images/Cluster.jpg)
+
+   * Balanced accuracy test (appox.): `51%`
+   * Precision: `1%`
+   * Recall/Sensitivity: `60%`
+   * F1: `1%`
+   * This model was the least successful in predicting credit risk amongst all the models tested. It produced the lowest balanced accuracy test score of `52%`, and due to the high number of false-positives, produced the lowest low_risk sensitivity score of `43%`.
+
 ### SMOTEENN
 
 ### BalancedRandomForestClassifier
