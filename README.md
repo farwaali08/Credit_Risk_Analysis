@@ -56,7 +56,7 @@ The data was resampled using the different methods outlined below, and then each
    * Precision: `1%`
    * Recall/Sensitivity: `61%`
    * F1: `2%`
-   * This model fared fairly similar to the previous one, with identical precision and F-scores. The recall/sensitivity is also identical, at `61%`. The overall balanced accuracy test score however, is lower, at roughly `62%`
+   * This model fared similarly to the previous one, with identical precision and F-scores. The recall/sensitivity is also identical, at `61%`. The overall balanced accuracy test score however, is lower, at roughly `62%`
 
 ### ClusterCentroids
 
