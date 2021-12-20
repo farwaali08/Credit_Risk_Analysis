@@ -4,6 +4,8 @@
 
 For this project, Python was used to create and assess several machine learning models in order to predict credit risk. The data was obtained from LendingClub, a lending-services company, and contains over `68,000` usable entries. Data pertaining to credit risk is notoriously unbalanced, as good loans generally outnumber risky ones, and it was no different in this instance:
 
+![alt_text](https://github.com/farwaali08/Credit_Risk_Analysis/blob/998b47f32893cbcf5e5951bc4f0605464546b270/Images/1.png)
+
 The data was resampled using the different methods outlined below, and then each method was evaluated based on its performance.
 
 
