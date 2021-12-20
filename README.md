@@ -2,16 +2,19 @@
 
 ## OVERVIEW
 
-For this project, Python was used to create and assess several machine learning models in order to predict credit card risk.
-We adopted the following procedure:
+For this project, Python was used to create and assess several machine learning models in order to predict credit risk. The data was obtained from LendingClub, a lending-services company, and contains over `68,000` usable entries. Data pertaining to credit risk is notoriously unbalanced, as good loans generally outnumber risky ones, and it was no different in this instance:
 
-oversample the data using the RandomOverSampler and SMOTE algorithms.
-Undersample the data using the ClusterCentroids algorithm.
-Use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm.
-Compare two machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier.
-We will evaluate the performance of these models and make a recommendation on whether they should be used to predict credit risk.
+The data was resampled using the different methods outlined below, and then each method was evaluated based on its performance.
 
 
+
+| **Oversampling** | **Undersampling**|**Both**         |**Ensemble Methods**          |
+|----------------- | -----------------|-----------------|-----------------             |
+| RandomOverSampler| ClusterCentroids |SMOTEEN          |BalancedRandomForestClassifier|               
+| SMOTE            |                  |                 |EasyEnsembleClassifier        |
+
+
+**Note**: the ensemble methods are machine learning models that reduce bias by generating under-sampled subsets combined inside an ensemble. **EasyEnsembleClassifier** is a boosting algorithm, and **BalancedRandomForestClassifier** is a bagging algorithm.
 
 ## TOOLS & RESOURCES
 
