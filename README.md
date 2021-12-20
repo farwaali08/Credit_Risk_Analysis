@@ -16,7 +16,7 @@ The data was resampled using the different methods outlined below, and then each
 | SMOTE            |                  |                 |EasyEnsembleClassifier        |
 
 
-**Note**: the ensemble methods are machine learning models that reduce bias by generating under-sampled subsets combined inside an ensemble. **EasyEnsembleClassifier** is a boosting algorithm, and **BalancedRandomForestClassifier** is a bagging algorithm.
+**Note**: the ensemble methods are machine learning models that reduce bias by [generating under-sampled subsets combined inside an ensemble](https://imbalanced-learn.org/stable/references/ensemble.html). **EasyEnsembleClassifier** is a boosting algorithm, and **BalancedRandomForestClassifier** is a bagging algorithm.
 
 ## TOOLS & RESOURCES
 
